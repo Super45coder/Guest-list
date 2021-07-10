@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Project 80</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h2>Guest List for party</h2>
+        <h2>Add</h2>
+        <span>
+            <input type="text" placeholder="Name" id="addname">
+            <button type="button" onclick="addguestname()" id="addtext">Add</button>
+        </span>
+        <hr/>
+        <div id="new_guest_list">
+        </div>
+        <hr/>
+        <h2>View</h2>
+        <button type="button" onclick="view()" id="view">View guest list</button>
+        <button type="button" onclick="sort()" id="sort">Sort</button>
+        <hr/>
+        <div id="viewlist">
+        </div>
+        <hr/>
+        <h2>Search</h2>
+        <span>
+            <input type="text" placeholder="Search" id="find">
+            <button type="submit" onclick="searchnames()" id="addtext">Search</button>
+        </span>
+        <hr/>
+        <div id="found">
+        </div>
+        <hr/>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    text-align:center;
+    background-image: url(71MXbxMGuqL._AC_SL1500_.jpg);
+}
+h2{
+    font-weight:bold;
+    color:white;
+}
+#addtext{
+margin-left:20px;
+}
+button{
+    background-color:orange;
+    font-weight:bold;
+}
+#sort{
+    display:none;
+}
+div{
+    font-weight:bolder;
+    color:red;
+}
